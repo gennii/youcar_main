@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="기업사이트, 유카, 반응형페이지">
+    <meta name="description" content="기업사이트 유카 반응형 사이트 만들기">
+    <meta name="author" content="김예진">
+
+    <title>유카 - 당신을 위한 카셰어링</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/car.css">
+    <!-- 어썸폰트 연결 -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+    <!-- 웹폰트 연결 -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/youcar.js"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <aside id="side" class="clearfix">
+        <h1><a href="https://gennii.github.io/youcar_main/"><img src="images/logo.png" width="170" alt="logo"></a></h1>
+
+        <nav>
+          <ul class="gnb">
+            <li><a href="#a">서비스 안내</a>
+              <ul class="lnb">
+                <li><a href="#a">카셰어링 예약</a></li>
+                <li><a href="#a">단기렌트 예약</a></li>
+                <li><a href="#a">이용방법</a></li>
+                <li><a href="#a">이용 에티켓</a></li>
+                <li><a href="#a">카셰어링 지점 안내</a></li>
+                <li><a href="#a">단기렌트 지점 안내</a></li>
+              </ul>
+            </li>
+            <li><a href="#a">요금 안내</a>
+              <ul class="lnb">
+                <li><a href="#a">이용 요금</a></li>
+                <li><a href="#a">패널티 요금</a></li>
+              </ul>
+            </li>
+            <li><a href="#a">차량 예약하기</a>
+              <ul class="lnb">
+                <li><a href="https://gennii.github.io/youcar_sharing/">카셰어링 예약</a></li>
+                <li><a href="#a">단기렌트 예약</a></li>
+              </ul>
+            </li>
+            <li><a href="#a">예약/이용내역</a>
+              <ul class="lnb">
+                <li><a href="#a">예약 조회/변경</a></li>
+                <li><a href="#a">이용 내역 확인</a></li>
+              </ul>
+            </li>
+            <li><a href="#a">이벤트/쿠폰북</a>
+              <ul class="lnb">
+                <li><a href="#a">이벤트</a></li>
+                <li><a href="#a">쿠폰북</a></li>
+              </ul> <!-- //.lnb -->
+            </li>
+          </ul> <!-- //.gnb -->
+        </nav>
+        <a href="#a">Sign</a>
+        <a href="#a">Join Us</a>
+      </aside>
+      <!-- //#side -->
+
+      <div class="box_wrap">
+        <div class="box box1">
+          <div id="cont1">
+            <h2>잠깐 차가 필요할 때</h2>
+            <span>카셰어링</span><img src="images/one_logo.png" alt="youcar">
+            <p class="bar"></p>
+            <div class="txt">
+              <p>KTX역과 공항에서 바로 타는 유카!</p>
+              <p>전국 어디서나 편리하게 이용하세요</p>
+            </div> <!-- //,txt -->
+            <div class="down_box">
+              <a target="_blank" href="https://play.google.com/store/apps/details?id=kr.co.youcar.youcarapp" class="one">
+                <img src="images/play.png" width="370" alt="google play">
+              </a>
+              <a target="_blank" href="https://apps.apple.com/kr/app/youcar/id1317192705" class="two">
+                <img src="images/apple.png" width="370" alt="app store">
+              </a>
+            </div> <!-- //.down_box -->
+          </div> <!-- //#cont1 -->
+        </div>
+        <!-- //.box1 -->
+        <div class="box box2">
+          <div class="content sharing">
+            <h2>멀리 찾아갈 필요없이</h2>
+            <h2 class="th">KTX역, 공항에서 바로 탑승</h2>
+
+            <P>셀프 픽업/반납으로 줄 설 필요없이</P>
+            <P>보다 더 빠르게 유카를 이용해보세요</P>
+
+            <p class="click"><a href=https://gennii.github.io/youcar_sharing/>카셰어링 바로가기</a></p>
+          </div> <!-- //.sharing-->
+        </div>
+        <div class="box box3">
+          <div class="content rent">
+            <h2>언제 어디서나 최대 1개월까지</h2>
+            <h2 class="th">내 차처럼 쓰는 단기렌트</h2>
+
+            <P>회원가입 시 대여요금 최대 50% 할인!</P>
+            <P>지금 바로 유카에서 경험해보세요</P>
+
+            <p class="click"><a href="#a">단기렌트 바로가기</a></p>
+          </div> <!-- //.rent-->
+        </div>
+        <div class="box box4">
+          <div class="use">
+            <h2>유카 이용방법</h2>
+            <ul class="tab clearfix">
+              <li data-tab="tab1" class="on"><a href="#a">1</a></li>
+              <li data-tab="tab2"><a href="#a">2</a></li>
+              <li data-tab="tab3"><a href="#a">3</a></li>
+              <li data-tab="tab4"><a href="#a">4</a></li>
+              <li data-tab="tab5"><a href="#a">5</a></li>
+            </ul>
+            <div class="tab_content on" id="tab1">
+              <h3>유카 앱 실행</h3>
+              <div class="val clearfix">
+                <img src="images/use1.png" alt="use01">
+                <p>차량 예약 및 스마트키 사용을 위해 '유카' 앱을 실행해주세요.<br>앱을 설치하면 더 빠르고 편리하게 이용 가능합니다. </p>
+              </div>
+            </div> <!-- //#tab1 -->
+            <div class="tab_content" id="tab2">
+              <h3>차량 예약하기</h3>
+              <div class="val clearfix">
+                <img src="images/use2.png" alt="use02">
+                <p>유카 로그인 후, 카셰어링 또는 단기렌트 예약을 선택해주세요.<br>예약 기간과 대여/반납지점, 차량을 선택하면 예약이 가능합니다.</p>
+              </div>
+            </div> <!-- //#tab2 -->
+            <div class="tab_content" id="tab3">
+              <h3>결제하기</h3>
+              <div class="val clearfix">
+                <img src="images/use3.png" alt="use03">
+                <p>기본 결제 수단을 등록해두시면 매번 카드 정보를 입력하지 않아도<br>간편하고 빠르게 자동 결제됩니다.</p>
+              </div>
+            </div> <!-- //#tab2 -->
+            <div class="tab_content" id="tab4">
+              <h3>차량 이용하기</h3>
+              <div class="val clearfix">
+                <img src="images/use4.png" alt="use04">
+                <p>스마트키는 카셰어링 예약 시에만 사용 가능하며,<br>유카 앱 스마트키를 이용해 차량 문을 열고 잠글 수 있습니다.<br>단기 렌트 예약 시에는 차량 상태 확인, 계약서 작성 후 차 키를 드립니다.</p>
+              </div>
+            </div> <!-- //#tab2 -->
+            <div class="tab_content" id="tab5">
+              <h3>차량 반납하기</h3>
+              <div class="val clearfix">
+                <img src="images/use5.png" alt="use05">
+                <p>차량 이용이 끝나면 정해진 주차위치에 차량을 주차해주세요.<br>카셰어링 예약은 스마트키에서 차량 반납 버튼을 누르면 반납이 완료됩니다.<br>단기렌트 예약은 담당 직원에게 차 키를 돌려주시면, 차량 확인 후 반납 처리해드립니다.</p>
+              </div>
+            </div> <!-- //#tab2 -->
+          </div> <!-- //.use -->
+        </div>
+        <!-- //.box4 -->
+        <div class="box box5">
+          <div class="search_box">
+            <p><a href="#a" class="close">닫기</a></p>
+            <div class="search">
+              <h2>서비스 이용 가능 지역</h2>
+
+              <select onchange="categoryChange(this)" id="num">
+                <option value="no">대여 지역 선택</option>
+                <option value="a">공항지점</option>
+                <option value="b">부산</option>
+                <option value="c">울산</option>
+                <option value="d">경주</option>
+                <option value="e">대구</option>
+                <option value="f">김천</option>
+                <option value="g">대전</option>
+              </select>
+
+              <select id="good">
+                <option>대여 지점 선택</option>
+              </select>
+
+              <script>
+              function categoryChange(e) {
+              var good_a = ["전체보기", "김해공항 국내선" , "인천공항 국제선", "인천공항 국내선"];
+              var good_b = ["전체보기", "부산역 KTX", "부산역 아스티호텔" , "부산역 북항 주차장"];
+              var good_c = ["전체보기", "울산역 KTX", "울산역 장애인 주차장"];
+              var good_d = ["전체보기", "신경주역 B주차장"];
+              var good_e = ["전체보기", "동대구역 유카 주차장"];
+              var good_f = ["전체보기", "김천/구미역 KTX"];
+              var good_g = ["전체보기", "대전역 KTX"];
+              var target = document.getElementById("good");
+
+              if(e.value == "a") var d = good_a;
+              else if(e.value == "b") var d = good_b;
+              else if(e.value == "c") var d = good_c;
+              else if(e.value == "d") var d = good_d;
+              else if(e.value == "e") var d = good_e;
+              else if(e.value == "f") var d = good_f;
+              else if(e.value == "g") var d = good_g;
+
+              target.options.length = 0;
+
+              for (x in d) {
+                var opt = document.createElement("option");
+                opt.value = d[x];
+                opt.innerHTML = d[x];
+                target.appendChild(opt);
+                }
+              };
+
+
+              $('#num').change(function(){
+              var state = $('#num option:selected').val();
+              if ( state == 'a' ) {
+                $('.layers').show();
+              } else {
+                $('.layers').hide();
+              }
+              });
+
+              $('#num').change(function(){
+              var state = $('#num option:selected').val();
+              if ( state == 'b' ) {
+                $('.layers2').show();
+              } else {
+                $('.layers2').hide();
+              }
+              });
+              </script>
+
+              <input type="submit" value="검색" class="in_search">
+
+              <div class="layers">
+                <table class="layer">
+                  <tr class="tr1">
+                    <th>지역</th>
+                    <th>대여지점</th>
+                    <th>차종</th>
+                    <th>차량대수</th>
+                    <th>예약하기</th>
+                  </tr>
+                  <tr>
+                    <th>공항지점</th>
+                    <th>김해공항 국내선</th>
+                    <th>The New K3 2018 (휘발유)</th>
+                    <th>3</th>
+                    <th><a href="#a">예약하기</a></th>
+                  </tr>
+                  <tr>
+                    <th>공항지점</th>
+                    <th>인천공항 국내선</th>
+                    <th>The New K3 2018 (휘발유)</th>
+                    <th>5</th>
+                    <th><a href="#a">예약하기</a></th>
+                  </tr>
+                  <tr>
+                    <th>공항지점</th>
+                    <th>인천공항 국제선</th>
+                    <th>The New K3 2018 (휘발유), 아반떼AD (휘발유)</th>
+                    <th>11</th>
+                    <th><a href="#a">예약하기</a></th>
+                  </tr>
+                </table>
+              </div> <!-- //.layers -->
+              <div class="layers2">
+                <table class="layer">
+                  <tr class="tr1">
+                    <th>지역</th>
+                    <th>대여지점</th>
+                    <th>차종</th>
+                    <th>차량대수</th>
+                    <th>예약하기</th>
+                  </tr>
+                  <tr>
+                    <th>부산</th>
+                    <th>부산역 KTX</th>
+                    <th>The New K3 2018 (휘발유)</th>
+                    <th>5</th>
+                    <th><a href="#a">예약하기</a></th>
+                  </tr>
+                  <tr>
+                    <th>부산</th>
+                    <th>부산역 아스티호텔</th>
+                    <th>The New K3 2018 (휘발유)</th>
+                    <th>2</th>
+                    <th><a href="#a">예약하기</a></th>
+                  </tr>
+                  <tr>
+                    <th>부산</th>
+                    <th>부산역 북항 주차장</th>
+                    <th>The New K3 2018 (휘발유), 아반떼AD (휘발유)</th>
+                    <th>1</th>
+                    <th><a href="#a">예약하기</a></th>
+                  </tr>
+                </table>
+              </div> <!-- //.layers -->
+
+            </div> <!-- //.search -->
+          </div>
+          <!-- //.search_box -->
+          <div class="content map">
+            <h2 class="th">전국 어디서나 편리하게</h2>
+
+            <P>지금 내 주변에 있는</P>
+            <P>서비스 이용 가능 지역을 확인해보세요</P>
+
+            <p class="click click_t"><a href="#a">대여지점 안내 바로가기</a></p>
+          </div> <!-- //.map-->
+
+
+        </div>
+        <!-- //.box5-->
+        <div class="box box6">
+          <img src="images/event.jpg" alt="banner">
+
+          <div class="hov">
+            <div class="icon_box">
+              <a href="#a"><img src="images/notice.png" alt="공지사항"></a>
+              <a href="#a"><img src="images/call.png" alt="고객센터"></a>
+              <a href="#a"><img src="images/faq.png" alt="faq"></a>
+            </div><!-- //.icon_box -->
+            <div class="txt_box vdpf">
+              <a href="#a">공지사항</a>
+              <a href="#a">고객센터</a>
+              <a href="#a">FAQ</a>
+            </div><!-- //.txt_box -->
+          </div><!-- //.hov -->
+
+          <div class="mobile">
+            <h2>모바일 앱 설치 URL 전송</h2>
+            <input type="text" name="cellPhone" id="cellPhone" placeholder="휴대폰 번호를 입력하세요" maxlength="13" />
+            <a href="#a">SMS 발송</a>
+          </div> <!-- //.mobile -->
+
+          <div class="footer">
+            <h3><img src="images/foot_logo.png" alt="foot_logo"></h3>
+
+            <ul class="clearfix">
+              <li>HOME</li>
+              <li>서비스 이용약관</li>
+              <li>개인정보 처리방침</li>
+              <li>위치기반서비스 이용약관</li>
+              <li>자동차 대여 약관</li>
+            </ul>
+
+            <p class="copyright">
+              유카네트웍스 주식회사대표 : 최종근  개인정보 보호책임자 : 최종근  전화 : 1599-4613 <br>
+              주소 : 부산광역시 강서구 미음산단5로41번길 71, 1층 110호(미음동, 부산글로벌테크비즈센터)<br>
+              사업자 등록번호 : 747-87-01318  통신판매업신고번호 제 2019-부산강서구-0188호<br>
+              Copyright © 유카네트웍스 주식회사 All rights reserved.<br>
+            </p>
+          </div>
+        </div>
+        <!-- //.box6 -->
+      </div>
+      <!-- //.box_wrap -->
+    </div>
+  </body>
+</html>
